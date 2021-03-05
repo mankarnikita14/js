@@ -6,7 +6,7 @@ describe('tail', () => {
         expect(tail([1, 2, 3])).toEqual([2,3]);
     });
     
-    it('tail of [] is null', () => {
+    it('tail of [] is []]', () => {
         expect(tail([])).toEqual([]);
     });
 })
